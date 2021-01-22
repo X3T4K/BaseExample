@@ -87,14 +87,14 @@ public class MainActivity extends AppCompatActivity {
         //ciclo while, ricordo che il ciclo while, si ripete fino a che la condizione interna
         //alle parentesi non è verificata.
         while (b){
-            //ad ogni ciclo prevelo dalla classe random una bool casuale
+            //ad ogni ciclo prelevo dalla classe random una bool casuale
             random.nextBoolean();
             //se sarà true (1), il ciclo finirà, altrimenti si ripeterà
         }
     }
 
     public void declareList (int n){
-        //dichiara una lista di string di n elementi, essendo un metodo gli passo gli elementi nelle parentesi alla riga 48
+        //dichiara una lista di string di n elementi, essendo un metodo gli passo gli elementi nelle parentesi alla riga 96
         List<String> List = new ArrayList<String>(n);
         /*in generale
         List<Type> name = new ArrayList<Type>(NumeroDiElementi);
